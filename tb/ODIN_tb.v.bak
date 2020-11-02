@@ -1,0 +1,29 @@
+//========= ODIN testbench in CapoCaccia 2019 =========// 
+
+`timescale 1ns/1ps
+
+module ODIN_tb;
+
+localparam CLK_period = 20;
+
+localparam M = 8;
+localparam N = 256; 
+
+reg CLK;
+reg RST;
+
+reg SCK;
+reg MOSI;
+wire MISO;
+
+reg [2*M:0] AERIN_ADDR;
+reg AERIN_REQ;
+wire AERIN_ACK;
+
+wire [M-1:0] AEROUT_ADDR;
+wire AEROUT_REQ;
+reg AEROUT_ACK;
+
+ODIN UUT (());
+
+

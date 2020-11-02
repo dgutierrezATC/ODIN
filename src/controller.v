@@ -198,14 +198,14 @@ module controller #(
 			W_SYN    	:   if      (ctrl_cnt == 32'd1 )                                                        nextstate = WAIT_SPIDN;
 							else					                                                            nextstate = W_SYN;
 			R_SYN    	:                                                                                       nextstate = WAIT_SPIDN;
-			TREF    	:   if      (AERIN_ADDR[M-1] ? (ctrl_cnt == 32'd1) : (&neur_cnt && neur_cnt_inc))       nextstate = WAIT_REQDN;
-							else					                                                            nextstate = TREF;
+			TREF    	:   if      (AERIN_ADDR[M-1] ? (ctrl_cnt == 32'd1) : ((neur_cnt == 8'd31)) && neur_cnt_inc)        nextstate = WAIT_REQDN; //mod
+							else					                                                                       nextstate = TREF;
             BIST        :   if      (AERIN_ADDR[M-1] ? (ctrl_cnt == 32'h3F) : (&neur_cnt && &ctrl_cnt[5:0]))    nextstate = WAIT_REQDN;
                             else					                                                            nextstate = BIST;
             SYNAPSE     :   if      (ctrl_cnt == 32'd1)                                                         nextstate = WAIT_REQDN;
                             else					                                                            nextstate = SYNAPSE;
             PUSH        :                                                                                       nextstate = WAIT_REQDN;
-			POP_NEUR    :   if      (&ctrl_cnt[8:0])                                                            nextstate = WAIT;
+			POP_NEUR    :   if      (ctrl_cnt[0] && (ctrl_cnt[8:1] == 8'd31))                                   nextstate = WAIT;        //mod
 							else					                                                            nextstate = POP_NEUR;                
 			POP_VIRT    :   if      (~CTRL_SCHED_POP_N)                                                         nextstate = WAIT;
 							else					                                                            nextstate = POP_VIRT;
@@ -443,7 +443,7 @@ module controller #(
             CTRL_SYNARRAY_WE    = (ctrl_cnt[3:0] == 4'b0001);
             CTRL_NEURMEM_ADDR   = neur_cnt;  
             CTRL_NEUR_BURST_END = (SCHED_DATA_OUT[M-1:0] == neur_cnt) && SCHED_BURST_END;
-            CTRL_SCHED_POP_N    = ~&ctrl_cnt[8:0];
+            CTRL_SCHED_POP_N    = ~&ctrl_cnt[5:0]; //mod
             CTRL_NEUR_EVENT     = 1'b1;
             CTRL_NEURMEM_CS     = 1'b1;
             if (ctrl_cnt[0] == 1'b0) begin

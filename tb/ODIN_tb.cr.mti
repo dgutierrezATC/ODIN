@@ -1,0 +1,136 @@
+D:/Proyectos/Universidad/GitHub/ODIN/src/izh_neuron.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/izh_neuron.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module izh_neuron
+
+Top level modules:
+	izh_neuron
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/ODIN.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/ODIN.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module ODIN
+
+Top level modules:
+	ODIN
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/tb/tbench_cochlea.sv {1 {vlog -work work -sv -stats=none D:/Proyectos/Universidad/GitHub/ODIN/tb/tbench_cochlea.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module tbench
+
+Top level modules:
+	tbench
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/synaptic_core.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/synaptic_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module synaptic_core
+-- Compiling module SRAM_8192x32_wrapper
+
+Top level modules:
+	synaptic_core
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/sdsp_update.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/sdsp_update.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module sdsp_update
+
+Top level modules:
+	sdsp_update
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_neuron_state.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_neuron_state.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module lif_neuron_state
+
+Top level modules:
+	lif_neuron_state
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_neuron_state.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_neuron_state.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module izh_neuron_state
+
+Top level modules:
+	izh_neuron_state
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/aer_out.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/aer_out.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module aer_out
+
+Top level modules:
+	aer_out
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/lif_neuron.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/lif_neuron.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module lif_neuron
+
+Top level modules:
+	lif_neuron
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/controller.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_effective_threshold.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_effective_threshold.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module izh_effective_threshold
+
+Top level modules:
+	izh_effective_threshold
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/fifo.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/fifo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_calcium.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_calcium.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module izh_calcium
+
+Top level modules:
+	izh_calcium
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_calcium.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_calcium.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module lif_calcium
+
+Top level modules:
+	lif_calcium
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_stimulation_strength.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_stimulation_strength.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module izh_stimulation_strength
+
+Top level modules:
+	izh_stimulation_strength
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/spi_slave.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/spi_slave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module spi_slave
+
+Top level modules:
+	spi_slave
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_input_accumulator.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_input_accumulator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module izh_input_accumulator
+
+Top level modules:
+	izh_input_accumulator
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/scheduler.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/scheduler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module scheduler
+
+Top level modules:
+	scheduler
+
+} {} {}} D:/Proyectos/Universidad/GitHub/ODIN/src/neuron_core.v {1 {vlog -work work -stats=none D:/Proyectos/Universidad/GitHub/ODIN/src/neuron_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module neuron_core
+-- Compiling module SRAM_256x128_wrapper
+
+Top level modules:
+	neuron_core
+
+} {} {}}

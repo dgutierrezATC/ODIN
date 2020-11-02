@@ -1,0 +1,479 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA_pro/17.1
+vaer_out
+Z0 !s110 1556542049
+!i10b 1
+!s100 j^IoDZkBG94YE3RH9>BRD0
+IPI3a8JM?9FUK63M`SBC8C2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Proyectos/Universidad/GitHub/ODIN/tb
+Z3 w1555925166
+8D:/Proyectos/Universidad/GitHub/ODIN/src/aer_out.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/aer_out.v
+Z4 L0 26
+Z5 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1556542049.000000
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/aer_out.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/aer_out.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vcontroller
+R0
+!i10b 1
+!s100 ZNKoX]e59CbGMoODNlVE91
+IOOn<MVB9l2II5K[NTjKo[1
+R1
+R2
+w1556323533
+8D:/Proyectos/Universidad/GitHub/ODIN/src/controller.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/controller.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/controller.v|
+!i113 1
+R7
+R8
+vfifo
+R0
+!i10b 1
+!s100 Q?1eBCGa>[D9ld_PK_Jc@0
+IR[ffCaI;j:CBbFI44b3lB0
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/fifo.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/fifo.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/fifo.v|
+!i113 1
+R7
+R8
+vizh_calcium
+Z9 !s110 1556542050
+!i10b 1
+!s100 S^jdVMj@GD3i]`RUfI19A3
+I;lbCQR9kH989HkM]NGZT70
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_calcium.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_calcium.v
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1556542050.000000
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_calcium.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_calcium.v|
+!i113 1
+R7
+R8
+vizh_effective_threshold
+R9
+!i10b 1
+!s100 _?hEPCJ5h2?9bbTbMJX[32
+Ij>F1>FIdn[Ndiline3e8U1
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_effective_threshold.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_effective_threshold.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_effective_threshold.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_effective_threshold.v|
+!i113 1
+R7
+R8
+vizh_input_accumulator
+R9
+!i10b 1
+!s100 SK<J04_k[F2PWj[^kYj9]2
+I4Hz>lMbTgE>3Jnd5<iK_`1
+R1
+R2
+w1556521377
+8D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_input_accumulator.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_input_accumulator.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_input_accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_input_accumulator.v|
+!i113 1
+R7
+R8
+vizh_neuron
+R0
+!i10b 1
+!s100 <F]gX41U[YTKUE]Oon?Y:1
+ILd7ZP01fbZk[0Y7Eg<8fO2
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/izh_neuron.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/izh_neuron.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/izh_neuron.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/izh_neuron.v|
+!i113 1
+R7
+R8
+vizh_neuron_state
+R9
+!i10b 1
+!s100 iHTf`heS4kF[<lB[GjB^H3
+I<l?m5N2Nn8XbYoIFn`Oog1
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_neuron_state.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_neuron_state.v
+L0 31
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_neuron_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_neuron_state.v|
+!i113 1
+R7
+R8
+vizh_stimulation_strength
+R9
+!i10b 1
+!s100 S]@C59zzVlB^D7R<JiO3b1
+I1IXI_Ln[>OI`kJ@]gH5]j1
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_stimulation_strength.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_stimulation_strength.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_stimulation_strength.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/IZH_neuron_blocks/izh_stimulation_strength.v|
+!i113 1
+R7
+R8
+vlif_calcium
+Z11 !s110 1556542051
+!i10b 1
+!s100 ZQ;gGBVh`0DY2GiJ_VA3Y0
+IjI9YPD:<JFR>DT<]W962]3
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_calcium.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_calcium.v
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1556542051.000000
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_calcium.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_calcium.v|
+!i113 1
+R7
+R8
+vlif_neuron
+R0
+!i10b 1
+!s100 f^Nm>c>K=HdO837nL0YYi3
+IgBaA@9nQY[h>DoZ`M2m5A1
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/lif_neuron.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/lif_neuron.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/lif_neuron.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/lif_neuron.v|
+!i113 1
+R7
+R8
+vlif_neuron_state
+R11
+!i10b 1
+!s100 Z_TfjW47QbZja`WU7W7nP3
+I`jDz^?D3Gz_LDak5k>B[d3
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_neuron_state.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_neuron_state.v
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_neuron_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/LIF_neuron_blocks/lif_neuron_state.v|
+!i113 1
+R7
+R8
+vneuron_core
+R0
+!i10b 1
+!s100 ^57zVhE1T=_EAc@JnDHUL0
+IKD]0h96g4MN0S==k2z=1^2
+R1
+R2
+R3
+Z13 8D:/Proyectos/Universidad/GitHub/ODIN/src/neuron_core.v
+Z14 FD:/Proyectos/Universidad/GitHub/ODIN/src/neuron_core.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z15 !s107 D:/Proyectos/Universidad/GitHub/ODIN/src/neuron_core.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/neuron_core.v|
+!i113 1
+R7
+R8
+vODIN
+R0
+!i10b 1
+!s100 UCJJ7C13:dhcoX1nBkQfT0
+IUG1bO0X9[1Lo1?R8TMMK91
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/ODIN.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/ODIN.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/ODIN.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/ODIN.v|
+!i113 1
+R7
+R8
+n@o@d@i@n
+vODIN_tb
+!s110 1555941662
+!i10b 1
+!s100 mlm936B2YIM`HS6Lnd<KW2
+IZKmPL`0nPY7@Z3EY4;V:^2
+R1
+R2
+w1555941628
+8D:\Proyectos\Universidad\GitHub\ODIN\tb\ODIN_tb.v
+FD:\Proyectos\Universidad\GitHub\ODIN\tb\ODIN_tb.v
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1555941662.000000
+!s107 D:\Proyectos\Universidad\GitHub\ODIN\tb\ODIN_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Proyectos\Universidad\GitHub\ODIN\tb\ODIN_tb.v|
+!i113 1
+R7
+R8
+n@o@d@i@n_tb
+vscheduler
+R9
+!i10b 1
+!s100 0iG1ok]U0SL][>2=T:Ihd2
+IM8AdZN^X12>Ek]d9c]e6[0
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/scheduler.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/scheduler.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/scheduler.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/scheduler.v|
+!i113 1
+R7
+R8
+vsdsp_update
+R9
+!i10b 1
+!s100 mE@D@P6ThQUPc<?BP`4hc0
+I_0dUS5WPk[D7EQX<0a`^72
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/sdsp_update.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/sdsp_update.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/sdsp_update.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/sdsp_update.v|
+!i113 1
+R7
+R8
+vspi_slave
+R9
+!i10b 1
+!s100 zceQhGV;5;1fUQ]XJfnKh0
+I32Eg56=YTnUbV?z8S=kjg2
+R1
+R2
+R3
+8D:/Proyectos/Universidad/GitHub/ODIN/src/spi_slave.v
+FD:/Proyectos/Universidad/GitHub/ODIN/src/spi_slave.v
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Proyectos/Universidad/GitHub/ODIN/src/spi_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/spi_slave.v|
+!i113 1
+R7
+R8
+vSRAM_256x128_wrapper
+R0
+!i10b 1
+!s100 hGRm51dmae4zaUh0CkPHc3
+Ian9AWi<j_2f^XFTDWoh3A0
+R1
+R2
+R3
+R13
+R14
+L0 283
+R5
+r1
+!s85 0
+31
+R6
+R15
+R16
+!i113 1
+R7
+R8
+n@s@r@a@m_256x128_wrapper
+vSRAM_8192x32_wrapper
+Z17 !s110 1556542048
+!i10b 1
+!s100 O8e9d_nNbN:9U4o6mE<<23
+If0:ShHOGY]g1mhX]fnJOH1
+R1
+R2
+R3
+Z18 8D:/Proyectos/Universidad/GitHub/ODIN/src/synaptic_core.v
+Z19 FD:/Proyectos/Universidad/GitHub/ODIN/src/synaptic_core.v
+L0 136
+R5
+r1
+!s85 0
+31
+Z20 !s108 1556542048.000000
+Z21 !s107 D:/Proyectos/Universidad/GitHub/ODIN/src/synaptic_core.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|D:/Proyectos/Universidad/GitHub/ODIN/src/synaptic_core.v|
+!i113 1
+R7
+R8
+n@s@r@a@m_8192x32_wrapper
+vsynaptic_core
+R17
+!i10b 1
+!s100 G_ek3RiE:gk@4Ab?oIK361
+I0SVkVZbHG6]NPXi3Wcmdz3
+R1
+R2
+R3
+R18
+R19
+R4
+R5
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R7
+R8
+vtbench
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1556542135
+!i10b 1
+!s100 hW0PNMzn_UknMWG9om4d33
+IUFdkmR:ONg@k@U58=:zGj1
+R1
+!s105 tbench_cochlea_sv_unit
+S1
+R2
+w1556542038
+8tbench_cochlea.sv
+Ftbench_cochlea.sv
+L0 66
+R5
+r1
+!s85 0
+31
+!s108 1556542135.000000
+!s107 tbench_cochlea.sv|
+!s90 -reportprogress|300|-sv|tbench_cochlea.sv|
+!i113 1
+o-sv
+R8

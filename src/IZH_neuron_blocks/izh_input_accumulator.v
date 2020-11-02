@@ -59,14 +59,14 @@ module izh_input_accumulator #(
 
     always @(*)
         case (param_fi_sel) 
-            3'd0    : begin state_inacc_fi = state_inacc[3 ]; state_inacc_next_fi = state_inacc_next[3 ]; end
-            3'd1    : begin state_inacc_fi = state_inacc[4 ]; state_inacc_next_fi = state_inacc_next[4 ]; end
-            3'd2    : begin state_inacc_fi = state_inacc[5 ]; state_inacc_next_fi = state_inacc_next[5 ]; end 
-            3'd3    : begin state_inacc_fi = state_inacc[6 ]; state_inacc_next_fi = state_inacc_next[6 ]; end
-            3'd4    : begin state_inacc_fi = state_inacc[7 ]; state_inacc_next_fi = state_inacc_next[7 ]; end
-            3'd5    : begin state_inacc_fi = state_inacc[8 ]; state_inacc_next_fi = state_inacc_next[8 ]; end 
-            3'd6    : begin state_inacc_fi = state_inacc[9 ]; state_inacc_next_fi = state_inacc_next[9 ]; end 
-            3'd7    : begin state_inacc_fi = state_inacc[10]; state_inacc_next_fi = state_inacc_next[10]; end
+            3'd0    : begin state_inacc_fi = state_inacc[2 ]; state_inacc_next_fi = state_inacc_next[2 ]; end
+            3'd1    : begin state_inacc_fi = state_inacc[3 ]; state_inacc_next_fi = state_inacc_next[3 ]; end
+            3'd2    : begin state_inacc_fi = state_inacc[4 ]; state_inacc_next_fi = state_inacc_next[4 ]; end
+            3'd3    : begin state_inacc_fi = state_inacc[5 ]; state_inacc_next_fi = state_inacc_next[5 ]; end 
+            3'd4    : begin state_inacc_fi = state_inacc[6 ]; state_inacc_next_fi = state_inacc_next[6 ]; end
+            3'd5    : begin state_inacc_fi = state_inacc[7 ]; state_inacc_next_fi = state_inacc_next[7 ]; end
+            3'd6    : begin state_inacc_fi = state_inacc[8 ]; state_inacc_next_fi = state_inacc_next[8 ]; end 
+            3'd7    : begin state_inacc_fi = state_inacc[9 ]; state_inacc_next_fi = state_inacc_next[9 ]; end 
             default : begin state_inacc_fi = state_inacc[3 ]; state_inacc_next_fi = state_inacc_next[3 ]; end
         endcase 
 
